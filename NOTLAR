@@ -5,5 +5,6 @@
  Robust Scaler, Normalizasyon ile benzer şekilde çalışır. Aykırı değerlere sahip verilerde daha iyi sonuçlar verebilir.Yine veri dağılımı ile benzerlik 
   gösterir ancak aykırı değerler dışarıda kalır. Medyan değeri sonradan kullanılmak üzere elenir ve değerler 1.ve 3. kartil aralığına oturtulur.
  MaxAbs Scaler, her özelliğin maksimum mutlak değeri 1 olacak şekilde her özelliği ayrı ayrı ölçeklendirir ve dönüştürülür.
- 
-  
+- sola yatık (left skewness )  , sağa yatık datayla işlem yapmak yerine çeşitli araçlarla bunları ortalamak modelimie daha iyi bir veri sağlayacaktır
+--Why we use fit_transform() on training data but transform() on the test data? 
+  -After working on the previous model, we try to perform ensembling by combinig different models to predict the final outcome using StackingRegressor

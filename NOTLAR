@@ -1,3 +1,9 @@
  - UZAKLIK BAZLI HESAPLAMALARI KULLANAN ALGORİTMALAR İÇİN SCALE İŞLEMİ ÇOK ÖNEMLİDİR. SCALE EDİLMEYEN DURUMLARDA DEĞERLER SAPACAKTIR.
  BUNUN ÖNÜNE GEÇMEK İÇİN STANDARTİZASYON VE NORMALİZASYON GİBİ METODLAR KULLANILIR.
+ MinMax Scaling, verinin 0 ile 1 arasında değerler aldığı bir durumdur. Burada dağılım, verinin dağılımı ile benzerdir. 
+   Burada ‘outlier’ denilen dışta kalan verilere karşı hassasiyet durumu vardır, bu yüzden bu değerlerin fazla olduğu bir durumda iyi bir performans gösteremeyebilir.
+ Robust Scaler, Normalizasyon ile benzer şekilde çalışır. Aykırı değerlere sahip verilerde daha iyi sonuçlar verebilir.Yine veri dağılımı ile benzerlik 
+  gösterir ancak aykırı değerler dışarıda kalır. Medyan değeri sonradan kullanılmak üzere elenir ve değerler 1.ve 3. kartil aralığına oturtulur.
+ MaxAbs Scaler, her özelliğin maksimum mutlak değeri 1 olacak şekilde her özelliği ayrı ayrı ölçeklendirir ve dönüştürülür.
+ 
   

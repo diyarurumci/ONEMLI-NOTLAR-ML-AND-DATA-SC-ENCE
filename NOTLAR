@@ -8,6 +8,6 @@
 - sola yatık (left skewness )  , sağa yatık datayla işlem yapmak yerine çeşitli araçlarla bunları ortalamak modelimie daha iyi bir veri sağlayacaktır
 --Why we use fit_transform() on training data but transform() on the test data? 
   -After working on the previous model, we try to perform ensembling by combinig different models to predict the final outcome using StackingRegressor
-- cros validasyonun önemini biliyoruz KFold ,stratified KFold (more balanced,targetin her yerinden örnek almaya çalışır) group
+- cros validasyonun önemini biliyoruz KFold ,stratified KFold (more balanced,targetin her yerinden örnek almaya çalışır), groupKFold , stratified gropKFold
 -
   

@@ -9,7 +9,11 @@
 --Why we use fit_transform() on training data but transform() on the test data? 
   -After working on the previous model, we try to perform ensembling by combinig different models to predict the final outcome using StackingRegressor
 - cros validasyonun önemini biliyoruz KFold ,stratified KFold (more balanced,targetin her yerinden örnek almaya çalışır), groupKFold , stratified gropKFold , time series split
-- catboost is faster and better at analays at smal amount of data
+- catboost is faster and better at analays at smal amount of data, pool parametrisne arraylaerimi sıralayabiliriz. modelimize tanıtmamızı sağlar.gpu mu cpu mu kararını 
+ver. golden parametre
+!! GPU VE CPU n_jobs  = kaç tane cpu corr kullanacığını belirtmek içindir. kaç tane kor varsa bilgisayarda ona göre seçebilirsin. -1 atarsan tümünü kullanılır kaç tan olduğuna
+bakmana gerek kalmaz
+-
 
 -
   

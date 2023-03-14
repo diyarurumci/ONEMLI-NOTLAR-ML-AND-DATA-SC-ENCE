@@ -12,7 +12,8 @@
 - catboost is faster and better at analays at smal amount of data, pool parametrisne arraylaerimi sıralayabiliriz. modelimize tanıtmamızı sağlar.gpu mu cpu mu kararını 
 ver. golden parametre
 !! GPU VE CPU n_jobs  = kaç tane cpu corr kullanacığını belirtmek içindir. kaç tane kor varsa bilgisayarda ona göre seçebilirsin. -1 atarsan tümünü kullanılır kaç tan olduğuna
-bakmana gerek kalmaz
+bakmana gerek kalmaz. njobsu model kurarken belirtmemize gerek yok cross validasyon işlemi sırasında eklersek daha iyi olabilir. CPU miktarını arttırmak işlemimizi daha hızlı 
+yapmamızı sağlar.
 -
 
 -

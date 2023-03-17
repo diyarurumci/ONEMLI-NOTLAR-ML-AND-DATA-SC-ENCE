@@ -14,7 +14,8 @@ ver. golden parametre
 !! GPU VE CPU n_jobs  = kaç tane cpu corr kullanacığını belirtmek içindir. kaç tane kor varsa bilgisayarda ona göre seçebilirsin. -1 atarsan tümünü kullanılır kaç tan olduğuna
 bakmana gerek kalmaz. njobsu model kurarken belirtmemize gerek yok cross validasyon işlemi sırasında eklersek daha iyi olabilir. CPU miktarını arttırmak işlemimizi daha hızlı 
 yapmamızı sağlar.
--
+-ok fazla eri veya feature varsa bunları modelin eğitmesi riskli olabilir bu durumda pca ile azaltabiliriz 
+Veya çok boyutlu data ile görselleştirme yapmak ve bu görselleri anlamlı olarak incelemek imkansızdır. PCA, data görselleştirmesi amacıyla da kullanılmaktadır.
 
 -
   

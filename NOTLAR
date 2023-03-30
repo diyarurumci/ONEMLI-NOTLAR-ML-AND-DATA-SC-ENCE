@@ -16,6 +16,9 @@ bakmana gerek kalmaz. njobsu model kurarken belirtmemize gerek yok cross validas
 yapmamızı sağlar.
 -ok fazla eri veya feature varsa bunları modelin eğitmesi riskli olabilir bu durumda pca ile azaltabiliriz 
 Veya çok boyutlu data ile görselleştirme yapmak ve bu görselleri anlamlı olarak incelemek imkansızdır. PCA, data görselleştirmesi amacıyla da kullanılmaktadır.
+if we have a lot of featuers gradient boosting models will be bad we have to make them less or change the model
+
+
 
 -
   

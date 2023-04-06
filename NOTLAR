@@ -17,8 +17,10 @@ yapmamızı sağlar.
 -ok fazla eri veya feature varsa bunları modelin eğitmesi riskli olabilir bu durumda pca ile azaltabiliriz 
 Veya çok boyutlu data ile görselleştirme yapmak ve bu görselleri anlamlı olarak incelemek imkansızdır. PCA, data görselleştirmesi amacıyla da kullanılmaktadır.
 if we have a lot of featuers gradient boosting models will be bad we have to make them less or change the model
+-categories of feature seleciton:
+?filter based :1_correlation 2_variance threshold 3_chisquare 4_anova 5_information_gain
+?wrapper based:1_rfe 2_
+?embeded : 1_l1 l2 
 
-
-
--
+-corelation and variance threshold: first make corelation matrix and check the high corelated features make a threshold and remowe one of them beacuse c'est pas necesasire
   

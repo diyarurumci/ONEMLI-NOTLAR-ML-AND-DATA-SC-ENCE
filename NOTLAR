@@ -23,7 +23,10 @@ if we have a lot of featuers gradient boosting models will be bad we have to mak
 ?embeded : 1_l1 l2 
 
 -corelation and variance threshold: first make corelation matrix and check the high corelated features make a threshold and remowe one of them beacuse c'est pas necesasire
-  - groupby, shifting ve transform  metodları ile lambda x fonksiyonunu da kullanarak yeni columnslar yaratabiliriz. aşağıda örnek kod veriyorum : 
-  df["final roving avarage"] = df.gropby("group",as_index =False)["shift column"].transform(lambda x : x.rolling(3, min_periods = 1).mean())
+  
+ - groupby, shifting ve transform  metodları ile lambda x fonksiyonunu da kullanarak yeni columnslar yaratabiliriz. aşağıda örnek kod veriyorum : 
+ df["final roving avarage"] = df.gropby("group",as_index =False)["shift column"].transform(lambda x : x.rolling(3, min_periods = 1).mean())
+ 
+ 
   
   
